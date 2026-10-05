@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('导轨连接件.STEP',
+    '2026-07-31T12:37:33',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2020',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #10 ) ;
+#2 = PRODUCT ( '导轨连接件', '导轨连接件', '', ( #8 ) ) ;
+#3 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #6 ) ;
+#4 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #2 ) ) ;
+#5 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #11 ) ;
+#6 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#7 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( '任何', '', #2, .NOT_KNOWN. ) ;
+#8 = PRODUCT_CONTEXT ( 'NONE', #6, 'mechanical' ) ;
+#9 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #10, 'design' ) ;
+#10 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#11 = PRODUCT_DEFINITION ( '未知', '', #7, #9 ) ;
+ENDSEC;
+END-ISO-10303-21;
